@@ -80,6 +80,8 @@ module.exports = {
         //         }
         //     ]
         // }),
-        new DotenvWebpackPlugin()
+        new DotenvWebpackPlugin({
+            systemvars: true
+        })
     ]
 };
